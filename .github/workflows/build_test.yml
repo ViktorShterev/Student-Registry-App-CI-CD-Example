@@ -21,7 +21,7 @@ jobs:
     - name: Install Dependencies 
       run: npm install
     - name: Run Npm Audit
-      run: npm run test_npm_security
+      run: npm run test-npm-security
 
   integration_test:
     runs-on: ubuntu-latest
